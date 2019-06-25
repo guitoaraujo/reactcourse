@@ -3,7 +3,7 @@ import { AppRegistry, View } from 'react-native';
 import { Header, AlbumList } from './src/components';
 
 const App = () => (
-  <View>
+  <View style={{ flex: 1 }}>
     <Header title="Albums" />
     <AlbumList />
   </View>
